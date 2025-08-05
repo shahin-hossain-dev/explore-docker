@@ -24,7 +24,7 @@
 
 - Download docker for win/mac/li
 - open command line
-- docker image pull from docker [hub.](hub.docker.com)
+- docker image pull from docker [hub.](https://hub.docker.com)
 
 ### Docker commands
 
@@ -68,4 +68,52 @@ docker run -it node
 
 ```
 docker build app-name
+```
+
+- docker help - for learning differnet commands from docker help
+
+```
+docker --help
+```
+
+- docker specific help like:
+
+```
+docker build --help
+```
+
+- docker build set tagname
+
+```
+docker build app-location --tag appName:v1
+```
+
+- docker images run
+
+```
+docker run -p/--publish 3000:3000 nodejs-app:v1
+```
+
+- docker container start
+
+```
+docker container start name/id
+```
+
+- docker container stop
+
+```
+docker container start name/id
+```
+
+- docker container remove
+
+```
+docker container rm name/id
+```
+
+- remove docker images
+
+```
+docker rmi imagesName/id
 ```
